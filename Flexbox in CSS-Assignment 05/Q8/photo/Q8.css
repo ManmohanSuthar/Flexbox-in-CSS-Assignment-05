@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #281610;
+}
+.contener{
+    flex-wrap: wrap;
+}
+img{
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+}
+.card{
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+}
+.photo{
+    position: absolute;
+    box-shadow: 0 0 8px 0 grey;
+}
+.photo1{
+    left: 379px;
+}
+.photo2{
+    left: 473px;
+}
+.photo3{
+    left: 584px;
+}
+.photo4{
+    right: 447px;
+}
+.photo:hover{
+    z-index: 99;
+    box-shadow: 0 0px 5px 5px grey;
+}

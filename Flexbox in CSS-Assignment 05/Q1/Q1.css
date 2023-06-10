@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contener{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 10px 50px;
+    padding: 0px 50px;
+}
+.item{
+    border: 3px solid black;
+}
+img{
+    height: 150px;
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    padding: 0px 50px;
+}

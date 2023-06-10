@@ -1,0 +1,60 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap');
+
+  html{
+    font-family: 'Geologica', sans-serif;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+.contener{
+    background-color: #101743;
+    color: aliceblue;
+    padding: 0 150px;
+    height: 99vh;
+    text-align: center;
+    padding-top: 30px;
+}
+.main-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    text-align: center;
+    padding: 30px;
+    width: 200px;
+    background-color: aqua;
+    margin: 0 10px;
+    height: 370px;
+    font-size: 15px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.fa-brands{
+    font-size: 100px;
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+.card>p{
+    text-align: left;
+}
+h1{
+    padding-bottom: 50px    ;
+}
+.card>h1{
+    padding-bottom: 20px;
+}
+.card1{
+    background-color: #3547BA;
+}
+.card2{
+    background-color: #682FFF;
+}
+.card3{
+    background-color: #A52FFF;
+}
+.card:hover{
+    box-shadow: 0 0 10px 0 grey;
+}
